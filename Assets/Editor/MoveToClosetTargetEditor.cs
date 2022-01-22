@@ -13,7 +13,8 @@ public class MoveToClosestTargetEditor : Editor
             normal = new GUIStyleState()
             {
                 textColor = Color.white
-            }
+            },
+            fontSize = 1
         };
 
         MoveToClosestTarget moveToClosestTarget = (MoveToClosestTarget)target;
